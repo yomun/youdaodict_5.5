@@ -1,4 +1,15 @@
-#!/bin/sh
+#!/usr/bin/env bash
+
+#
+# https://jasonmun.blogspot.my
+# https://github.com/yomun
+# 
+# Copyright (C) 2017 Jason Mun
+# 
+# ---------------------------------------------------------------------------------
+# rm -rf ~/.config/youdao-dict
+# rm -rf ~/.cache/youdao-dict
+# ---------------------------------------------------------------------------------
 
 PREFIX=/usr
 

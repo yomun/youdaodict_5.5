@@ -128,8 +128,8 @@ $ rm -rf ~/.config/youdao-dict<br>
 $ rm -rf ~/.cache/youdao-dict<br>
 <br>
 $ su<br>
-$ wget https://raw.githubusercontent.com/yomun/youdaodict_5.5/master/delete_src.sh<br>
-$ sh delete_src.sh<br>
+$ wget https://raw.githubusercontent.com/yomun/youdaodict_5.5/master/youdaodict-uninstall.sh<br>
+$ bash youdaodict-uninstall.sh<br>
 <br>
 <b>[ 图标不能显示问题 ]</b><br>
 <br>
