@@ -21,6 +21,10 @@ $ apt install tesseract-ocr tesseract-ocr-eng tesseract-ocr-chi-sim tesseract-oc
 这个就是自己制作给 Ubuntu 用的 DEB 包, 比有道词典官网发布还快..<br>
 $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb<br>
 $ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
+$ xhost + && youdao-dict<br>
+<br>
+遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题<br>
+则需要 xhost + 指令, 这是 python-xlib 引起的 bugs<br>
 <br>
 <b>[ Fedora 26 - 27 ]</b><br>
 <br>
