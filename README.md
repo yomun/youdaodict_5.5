@@ -7,6 +7,7 @@
 http://packages.deepin.com/deepin/pool/main/y/youdao-dict/<br>
 <br>
 先安装所有依赖软件包 (有用到3D加速, 所以假设显卡驱动已安装了)<br>
+$ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb<br>
 <br>
 <b>[ Ubuntu 16.04 - 17.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1 ]</b><br>
 <br>
@@ -19,8 +20,6 @@ $ apt install libqt5multimedia5-plugins ttf-wqy-microhei<br>
 $ apt install tesseract-ocr tesseract-ocr-eng tesseract-ocr-chi-sim tesseract-ocr-chi-tra<br>
 $ apt install ubuntu-restricted-extras<br>
 <br>
-这个就是自己制作给 Ubuntu 用的 DEB 包, 比有道词典官网发布还快..<br>
-$ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb<br>
 $ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
 $ xhost + && youdao-dict<br>
 <br>
@@ -39,7 +38,6 @@ $ dnf install python3-requests python3-lxml python3-pillow python3-qt5 python3-q
 $ dnf install libappindicator-gtk3 qt5-qtgraphicaleffects qt5-qtquickcontrols qt5-qtbase-devel<br>
 $ dnf install tesseract-langpack-chi_sim tesseract-langpack-chi_tra tesseract-langpack-enm tesseract-devel<br>
 <br>
-$ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb<br>
 $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
 $ tar -Jxvf data.tar.xz  -C /<br>
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary<br>
@@ -57,7 +55,6 @@ $ zypper install typelib-1_0-AppIndicator3-0_1 libqt5-qtgraphicaleffects libqt5-
 $ zypper install tesseract-ocr-traineddata-chinese_simplified tesseract-ocr-traineddata-chinese_traditional<br>
 $ zypper install tesseract-ocr-traineddata-english tesseract-ocr-devel<br>
 <br>
-$ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb<br>
 $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
 $ tar -Jxvf data.tar.xz  -C /<br>
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary<br>
@@ -76,7 +73,6 @@ $ pacman -S libappindicator-gtk3 qt5-graphicaleffects qt5-quickcontrols qt5-webk
 $ pacman -S wqy-microhei binutils<br>
 $ pacman -S tesseract tesseract-data-eng tesseract-data-chi_sim tesseract-data-chi_tra<br>
 <br>
-$ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb<br>
 $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
 $ tar -Jxvf data.tar.xz -C /<br>
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary<br>
@@ -110,7 +106,6 @@ $ eopkg install python3-qt5 qt5-multimedia qt5-webkit<br>
 $ eopkg install libappindicator qt5-graphicaleffects qt5-quickcontrols<br>
 $ eopkg install tesseract tessdata<br>
 <br>
-$ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb<br>
 $ eopkg install binutils<br>
 $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
 $ tar -Jxvf data.tar.xz -C /<br>
