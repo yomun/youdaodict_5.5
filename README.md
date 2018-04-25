@@ -115,14 +115,6 @@ $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
 $ tar -Jxvf data.tar.xz -C /<br>
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary<br>
 <br>
-<br>
-<b>[ 有道词典 v1.1.0 ] ( 只支持 PyQt 5.5 )</b><br>
-<br>
-http://jasonmun.blogspot.my/2016/06/linux-youdao-dict.html<br>
-http://cidian.youdao.com/index-linux.html<br>
-<br>
-$ wget https://github.com/yomun/youdaodict_5.5/raw/1.1.0-yomun/youdao-dict_1.1.0-0~ubuntu_amd64.deb<br>
-<br>
 Ubuntu 如果要有道词典发声，还需要<br>
 $ sudo apt install ubuntu-restricted-extras<br>
 <br>
