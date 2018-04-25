@@ -119,7 +119,7 @@ $ rm -rf ~/.cache/youdao-dict<br>
 <br>
 $ su<br>
 <br>
-DEB 安装的用..<br>
+DEB 安装的用以下来卸载..<br>
 $ dpkg -r youdao-dict<br>
 <br>
 $ wget https://raw.githubusercontent.com/yomun/youdaodict_5.5/master/youdaodict-uninstall.sh<br>
