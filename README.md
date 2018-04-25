@@ -18,6 +18,7 @@ $ apt install python3-pyqt5 python3-pyqt5.qtmultimedia python3-pyqt5.qtquick pyt
 $ apt install gir1.2-appindicator3-0.1 qml-module-qtgraphicaleffects qml-module-qtquick-controls<br>
 $ apt install libqt5multimedia5-plugins ttf-wqy-microhei<br>
 $ apt install tesseract-ocr tesseract-ocr-eng tesseract-ocr-chi-sim tesseract-ocr-chi-tra<br>
+<br>
 $ apt install ubuntu-restricted-extras<br>
 <br>
 $ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
@@ -117,6 +118,10 @@ $ rm -rf ~/.config/youdao-dict<br>
 $ rm -rf ~/.cache/youdao-dict<br>
 <br>
 $ su<br>
+<br>
+DEB 安装的用..<br>
+$ dpkg -r youdao-dict<br>
+<br>
 $ wget https://raw.githubusercontent.com/yomun/youdaodict_5.5/master/youdaodict-uninstall.sh<br>
 $ bash youdaodict-uninstall.sh<br>
 <br>
