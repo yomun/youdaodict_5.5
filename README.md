@@ -17,6 +17,7 @@ $ apt install python3-pyqt5 python3-pyqt5.qtmultimedia python3-pyqt5.qtquick pyt
 $ apt install gir1.2-appindicator3-0.1 qml-module-qtgraphicaleffects qml-module-qtquick-controls<br>
 $ apt install libqt5multimedia5-plugins ttf-wqy-microhei<br>
 $ apt install tesseract-ocr tesseract-ocr-eng tesseract-ocr-chi-sim tesseract-ocr-chi-tra<br>
+$ apt install ubuntu-restricted-extras<br>
 <br>
 这个就是自己制作给 Ubuntu 用的 DEB 包, 比有道词典官网发布还快..<br>
 $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb<br>
@@ -114,9 +115,6 @@ $ eopkg install binutils<br>
 $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
 $ tar -Jxvf data.tar.xz -C /<br>
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary<br>
-<br>
-Ubuntu 如果要有道词典发声，还需要<br>
-$ sudo apt install ubuntu-restricted-extras<br>
 <br>
 <b>[ Uninstall ] ( 做给以上用 tar 指令来安装的 Linux 分发版 )</b><br>
 <br>
