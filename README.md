@@ -119,9 +119,10 @@ $ rm -rf ~/.cache/youdao-dict<br>
 <br>
 $ su<br>
 <br>
-DEB 安装的用以下来卸载..<br>
+如果是 dpkg 安装 DEB 的, 用<br>
 $ dpkg -r youdao-dict<br>
 <br>
+如果是 tar 的话, 则用<br>
 $ wget https://raw.githubusercontent.com/yomun/youdaodict_5.5/master/youdaodict-uninstall.sh<br>
 $ bash youdaodict-uninstall.sh<br>
 <br>
