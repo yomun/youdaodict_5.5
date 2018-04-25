@@ -6,7 +6,7 @@
 它支持 PyQt 5.6 和 SIP 4.18.1 版本 (Ubuntu 16.10 / Fedora 24 / OpenSUSE 42.2 等开始的发行版)<br>
 http://packages.deepin.com/deepin/pool/main/y/youdao-dict/<br>
 <br>
-先安装所有依赖软件包 (有用到3D加速, 所以假设显卡驱动已安装了)<br>
+先安装所有依赖软件包 (需要3D加速, 所以假设显卡驱动已安装了)<br>
 $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb<br>
 <br>
 <b>[ Ubuntu 16.04 - 17.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1 ]</b><br>
