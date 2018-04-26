@@ -84,7 +84,8 @@ $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
 ```
 - Manjaro 17.0.2
 ```
-安装方法跟以上 Antergos 一样, 但运行 youdao-dict 可能会出现 Cannot mix incompatible Qt library (version 0x50701..
+安装方法跟以上 Antergos 一样, 但运行 youdao-dict 可能会出现
+Cannot mix incompatible Qt library (version 0x50701..
 这样的错误, 解决方法是重安装 qt5-styleplugins (安装 aurget 以重安装)
 
 $ pacman -Rsn qt5-styleplugins
