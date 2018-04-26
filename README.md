@@ -12,7 +12,6 @@ $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ub
 开始安装需要的依赖软件包, 然后才安装以上有道词典<br>
 <br>
 <b>[ Ubuntu 16.04 - 17.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1 ]</b><br>
-<br>
 ```
 $ su root
 $ apt install python3 python3-dbus python3-requests python3-lxml python3-pil python3-xdg python3-xlib
@@ -33,21 +32,21 @@ $ xhost + && youdao-dict
 ```
 <br>
 <b>[ Fedora 26 - 27 ]</b><br>
-<br>
-$ touch ~/.Xauthority<br>
-$ su<br>
-$ dnf install python python3 python-xlib python3-pip -y<br>
-$ pip3 install --upgrade pip<br>
-$ pip3 install python3-xlib<br>
-<br>
-$ dnf install python3-requests python3-lxml python3-pillow python3-qt5 python3-qt5-devel python3-qt5-webkit<br>
-$ dnf install libappindicator-gtk3 qt5-qtgraphicaleffects qt5-qtquickcontrols qt5-qtbase-devel<br>
-$ dnf install tesseract-langpack-chi_sim tesseract-langpack-chi_tra tesseract-langpack-enm tesseract-devel<br>
-<br>
-$ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
-$ tar -Jxvf data.tar.xz  -C /<br>
-$ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary<br>
-<br>
+```
+$ touch ~/.Xauthority
+$ su
+$ dnf install python python3 python-xlib python3-pip -y
+$ pip3 install --upgrade pip
+$ pip3 install python3-xlib
+
+$ dnf install python3-requests python3-lxml python3-pillow python3-qt5 python3-qt5-devel python3-qt5-webkit
+$ dnf install libappindicator-gtk3 qt5-qtgraphicaleffects qt5-qtquickcontrols qt5-qtbase-devel
+$ dnf install tesseract-langpack-chi_sim tesseract-langpack-chi_tra tesseract-langpack-enm tesseract-devel
+
+$ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
+$ tar -Jxvf data.tar.xz  -C /
+$ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
+```
 <b>[ OpenSUSE Tumbleweed ]</b><br>
 <br>
 $ su root<br>
