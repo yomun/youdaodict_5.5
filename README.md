@@ -37,7 +37,8 @@ $ dnf install python python3 python-xlib python3-pip -y
 $ pip3 install --upgrade pip
 $ pip3 install python3-xlib
 
-$ dnf install python3-requests python3-lxml python3-pillow python3-qt5 python3-qt5-devel python3-qt5-webkit
+$ dnf install python3-requests python3-lxml python3-pillow
+$ dnf install python3-qt5 python3-qt5-devel python3-qt5-webkit
 $ dnf install libappindicator-gtk3 qt5-qtgraphicaleffects qt5-qtquickcontrols qt5-qtbase-devel
 $ dnf install tesseract-langpack-chi_sim tesseract-langpack-chi_tra tesseract-langpack-enm tesseract-devel
 
