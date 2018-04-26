@@ -4,5 +4,6 @@
 从官方原装撤除依赖 gstreamer0.10-plugins-ugly, 重新制作 DEB 安装包<br>
 http://jasonmun.blogspot.my/2016/06/linux-youdao-dict.html<br>
 http://cidian.youdao.com/index-linux.html<br>
-<br>
+```
 $ wget https://github.com/yomun/youdaodict_5.5/raw/1.1.0-yomun/youdao-dict_1.1.0-0~ubuntu_amd64.deb
+```
