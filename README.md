@@ -40,7 +40,8 @@ $ pip3 install python3-xlib
 $ dnf install python3-requests python3-lxml python3-pillow
 $ dnf install python3-qt5 python3-qt5-devel python3-qt5-webkit
 $ dnf install libappindicator-gtk3 qt5-qtgraphicaleffects qt5-qtquickcontrols qt5-qtbase-devel
-$ dnf install tesseract-langpack-chi_sim tesseract-langpack-chi_tra tesseract-langpack-enm tesseract-devel
+$ dnf install tesseract-langpack-chi_sim tesseract-langpack-chi_tra
+$ dnf install tesseract-langpack-enm tesseract-devel
 
 $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
 $ tar -Jxvf data.tar.xz  -C /
