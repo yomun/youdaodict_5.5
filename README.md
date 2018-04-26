@@ -55,8 +55,8 @@ $ pip3 install python3-xlib
 
 $ zypper install python3-requests python3-lxml python3-Pillow python3-qt5 python3-qt5-devel
 $ zypper install typelib-1_0-AppIndicator3-0_1 libqt5-qtgraphicaleffects libqt5-qtquickcontrols
-$ zypper install tesseract-ocr-traineddata-chinese_simplified tesseract-ocr-traineddata-chinese_traditional
-$ zypper install tesseract-ocr-traineddata-english tesseract-ocr-devel
+$ zypper install tesseract-ocr-traineddata-chinese_simplified
+$ zypper install tesseract-ocr-traineddata-chinese_traditional tesseract-ocr-traineddata-english tesseract-ocr-devel
 
 $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
 $ tar -Jxvf data.tar.xz  -C /
