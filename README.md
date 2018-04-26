@@ -19,6 +19,7 @@ $ apt install python3-pyqt5 python3-pyqt5.qtmultimedia python3-pyqt5.qtquick pyt
 $ apt install gir1.2-appindicator3-0.1 qml-module-qtgraphicaleffects qml-module-qtquick-controls
 $ apt install libqt5multimedia5-plugins ttf-wqy-microhei
 $ apt install tesseract-ocr tesseract-ocr-eng tesseract-ocr-chi-sim tesseract-ocr-chi-tra
+
 $ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb
 
 $ apt install ubuntu-restricted-extras
