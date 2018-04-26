@@ -20,11 +20,11 @@ $ apt install python3-pyqt5 python3-pyqt5.qtmultimedia python3-pyqt5.qtquick pyt
 $ apt install gir1.2-appindicator3-0.1 qml-module-qtgraphicaleffects qml-module-qtquick-controls<br>
 $ apt install libqt5multimedia5-plugins ttf-wqy-microhei<br>
 $ apt install tesseract-ocr tesseract-ocr-eng tesseract-ocr-chi-sim tesseract-ocr-chi-tra<br>
+$ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
 <br>
 $ apt install ubuntu-restricted-extras<br>
 <br>
 $ su username<br>
-$ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
 $ xhost + && youdao-dict<br>
 <br>
 遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题<br>
@@ -62,6 +62,7 @@ $ zypper install tesseract-ocr-traineddata-english tesseract-ocr-devel<br>
 $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
 $ tar -Jxvf data.tar.xz  -C /<br>
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary<br>
+<br>
 $ su username<br>
 $ xhost + && youdao-dict<br>
 <br>
