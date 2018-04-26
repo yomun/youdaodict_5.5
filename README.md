@@ -47,91 +47,92 @@ $ tar -Jxvf data.tar.xz  -C /
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
 ```
 <b>[ OpenSUSE Tumbleweed ]</b><br>
-<br>
-$ su root<br>
-$ zypper install python python3 python-xlib python3-pip<br>
-$ pip install pyxdg<br>
-$ pip3 install --upgrade pip<br>
-$ pip3 install python3-xlib<br>
-<br>
-$ zypper install python3-requests python3-lxml python3-Pillow python3-qt5 python3-qt5-devel<br>
-$ zypper install typelib-1_0-AppIndicator3-0_1 libqt5-qtgraphicaleffects libqt5-qtquickcontrols<br>
-$ zypper install tesseract-ocr-traineddata-chinese_simplified tesseract-ocr-traineddata-chinese_traditional<br>
-$ zypper install tesseract-ocr-traineddata-english tesseract-ocr-devel<br>
-<br>
-$ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
-$ tar -Jxvf data.tar.xz  -C /<br>
-$ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary<br>
-<br>
-$ su username<br>
-$ xhost + && youdao-dict<br>
-<br>
-遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题<br>
-所以需要 xhost + 指令, 这是 python-xlib 引起的 bugs<br>
-<br>
+```
+$ su root
+$ zypper install python python3 python-xlib python3-pip
+$ pip install pyxdg
+$ pip3 install --upgrade pip
+$ pip3 install python3-xlib
+
+$ zypper install python3-requests python3-lxml python3-Pillow python3-qt5 python3-qt5-devel
+$ zypper install typelib-1_0-AppIndicator3-0_1 libqt5-qtgraphicaleffects libqt5-qtquickcontrols
+$ zypper install tesseract-ocr-traineddata-chinese_simplified tesseract-ocr-traineddata-chinese_traditional
+$ zypper install tesseract-ocr-traineddata-english tesseract-ocr-devel
+
+$ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
+$ tar -Jxvf data.tar.xz  -C /
+$ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
+
+$ su username
+$ xhost + && youdao-dict
+
+遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题
+所以需要 xhost + 指令, 这是 python-xlib 引起的 bugs
+```
 <b>[ Antergos 17.8 / Manjaro 17.0.4 ]</b><br>
-<br>
-$ su<br>
-<br>
-$ pacman -S python python-xlib python-xdg python-dbus<br>
-$ pacman -S python-requests python-lxml python-pillow python-pyqt5 pyqt5-common<br>
-$ pacman -S libappindicator-gtk3 qt5-graphicaleffects qt5-quickcontrols qt5-webkit qt5-base<br>
-$ pacman -S wqy-microhei binutils<br>
-$ pacman -S tesseract tesseract-data-eng tesseract-data-chi_sim tesseract-data-chi_tra<br>
-<br>
-$ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
-$ tar -Jxvf data.tar.xz -C /<br>
-$ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary<br>
-<br>
+```
+$ su
+
+$ pacman -S python python-xlib python-xdg python-dbus
+$ pacman -S python-requests python-lxml python-pillow python-pyqt5 pyqt5-common
+$ pacman -S libappindicator-gtk3 qt5-graphicaleffects qt5-quickcontrols qt5-webkit qt5-base
+$ pacman -S wqy-microhei binutils
+$ pacman -S tesseract tesseract-data-eng tesseract-data-chi_sim tesseract-data-chi_tra
+
+$ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
+$ tar -Jxvf data.tar.xz -C /
+$ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
+```
 <b>[ Manjaro 17.0.2 ]</b><br>
-<br>
-安装方法跟以上 Antergos 一样, 但运行 youdao-dict 可能会出现 Cannot mix incompatible Qt library (version 0x50701..<br>
-这样的错误, 解决方法是重安装 qt5-styleplugins (安装 aurget 以重安装)<br>
-<br>
-$ pacman -Rsn qt5-styleplugins<br>
-$ pacman -Syyu<br>
-<br>
-$ pacman -S wget base-devel<br>
-<br>
-$ su username<br>
-<br>
-$ wget https://github.com/pbrisbin/aurget/archive/v4.7.2.tar.gz<br>
-$ tar -xvf v4.7.2.tar.gz && cd aurget-4.7.2 && sudo make install<br>
-<br>
-$ aurget -S qt5-styleplugins<br>
-<br>
+```
+安装方法跟以上 Antergos 一样, 但运行 youdao-dict 可能会出现 Cannot mix incompatible Qt library (version 0x50701..
+这样的错误, 解决方法是重安装 qt5-styleplugins (安装 aurget 以重安装)
+
+$ pacman -Rsn qt5-styleplugins
+$ pacman -Syyu
+
+$ pacman -S wget base-devel
+
+$ su username
+
+$ wget https://github.com/pbrisbin/aurget/archive/v4.7.2.tar.gz
+$ tar -xvf v4.7.2.tar.gz && cd aurget-4.7.2 && sudo make install
+
+$ aurget -S qt5-styleplugins
+```
 <b>[ Solus OS 3 ]</b><br>
-<br>
-$ su<br>
-<br>
-$ pip3 install --upgrade pip<br>
-$ pip3 install pyxdg<br>
-<br>
-$ eopkg install python3 python3-dbus python-requests python-lxml python-pillow python3-xlib<br>
-$ eopkg install python3-qt5 qt5-multimedia qt5-webkit<br>
-$ eopkg install libappindicator qt5-graphicaleffects qt5-quickcontrols<br>
-$ eopkg install tesseract tessdata<br>
-<br>
-$ eopkg install binutils<br>
-$ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
-$ tar -Jxvf data.tar.xz -C /<br>
-$ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary<br>
-<br>
+```
+$ su
+
+$ pip3 install --upgrade pip
+$ pip3 install pyxdg
+
+$ eopkg install python3 python3-dbus python-requests python-lxml python-pillow python3-xlib
+$ eopkg install python3-qt5 qt5-multimedia qt5-webkit
+$ eopkg install libappindicator qt5-graphicaleffects qt5-quickcontrols
+$ eopkg install tesseract tessdata
+
+$ eopkg install binutils
+$ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
+$ tar -Jxvf data.tar.xz -C /
+$ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
+```
 <b>[ Uninstall ] ( 做给以上用 tar 指令来安装的 Linux 分发版 )</b><br>
-<br>
-$ rm -rf ~/.config/youdao-dict<br>
-$ rm -rf ~/.cache/youdao-dict<br>
-<br>
-$ su<br>
-<br>
-如果是 dpkg 安装 DEB 的, 用<br>
-$ dpkg -r youdao-dict<br>
-<br>
-如果是 tar 的话, 则用<br>
-$ wget https://raw.githubusercontent.com/yomun/youdaodict_5.5/master/youdaodict-uninstall.sh<br>
-$ bash youdaodict-uninstall.sh<br>
-<br>
+```
+$ rm -rf ~/.config/youdao-dict
+$ rm -rf ~/.cache/youdao-dict
+
+$ su
+
+如果是 dpkg 安装 DEB 的, 用
+$ dpkg -r youdao-dict
+
+如果是 tar 的话, 则用
+$ wget https://raw.githubusercontent.com/yomun/youdaodict_5.5/master/youdaodict-uninstall.sh
+$ bash youdaodict-uninstall.sh
+```
 <b>[ 图标不能显示问题 ]</b><br>
-<br>
-$ su<br>
-$ rm -rf /usr/share/icons/hicolor/icon-theme.cache<br>
+```
+$ su
+$ rm -rf /usr/share/icons/hicolor/icon-theme.cache
+```
