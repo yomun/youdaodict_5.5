@@ -7,11 +7,12 @@
 http://packages.deepin.com/deepin/pool/main/y/youdao-dict/<br>
 <br>
 先取得有道词典安装包 (需要3D加速, 所以假设显卡驱动已安装了)<br>
-$ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb<br>
-<br>
+```
+$ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb
+```
 开始安装需要的依赖软件包, 然后才安装以上有道词典<br>
 <br>
-<b>[ Ubuntu 16.04 - 17.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1 ]</b><br>
+--<b>[ Ubuntu 16.04 - 17.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1 ]</b><br>
 ```
 $ su root
 $ apt install python3 python3-dbus python3-requests python3-lxml python3-pil python3-xdg python3-xlib
