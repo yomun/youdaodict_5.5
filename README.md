@@ -1,7 +1,8 @@
 # youdaodict_5.5
 ![Screencast](https://2.bp.blogspot.com/-a1ldr3X2U1s/WZAIrNamPxI/AAAAAAAAAjw/CGVeNEUzjWk2pK71C4PwuMIzRFwc9ROawCLcBGAs/s1600/youdao.png)
 <br><br>
-<b>[ 有道词典 v1.1.1 ] ( 支持 PyQt 5.5 或以上 )</b><br><br>
+# 有道词典 v1.1.1 ( 支持 PyQt 5.5 或以上 )
+<br>
 这个有道词典最新源码是从 Deepin 15.4.1 (youdao-dict_1.0.8-1_amd64.deb) 取出, 然后重新打包成 Ubuntu 能用的 deb 包<br>
 它支持 PyQt 5.6 和 SIP 4.18.1 版本 (Ubuntu 16.10 / Fedora 24 / OpenSUSE 42.2 等开始的发行版)<br>
 http://packages.deepin.com/deepin/pool/main/y/youdao-dict/<br>
