@@ -12,7 +12,7 @@ $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ub
 ```
 开始安装需要的依赖软件包, 然后才安装以上有道词典<br>
 <br>
---<b>[ Ubuntu 16.04 - 17.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1 ]</b><br>
+- Ubuntu 16.04 - 17.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
 ```
 $ su root
 $ apt install python3 python3-dbus python3-requests python3-lxml python3-pil python3-xdg python3-xlib
@@ -31,7 +31,7 @@ $ xhost + && youdao-dict
 遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题
 则需要 xhost + 指令, 这是 python-xlib 引起的 bugs
 ```
-<b>[ Fedora 26 - 27 ]</b><br>
+- Fedora 26 - 27
 ```
 $ touch ~/.Xauthority
 $ su
@@ -47,7 +47,7 @@ $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
 $ tar -Jxvf data.tar.xz  -C /
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
 ```
-<b>[ OpenSUSE Tumbleweed ]</b><br>
+- OpenSUSE Tumbleweed
 ```
 $ su root
 $ zypper install python python3 python-xlib python3-pip
@@ -70,7 +70,7 @@ $ xhost + && youdao-dict
 遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题
 所以需要 xhost + 指令, 这是 python-xlib 引起的 bugs
 ```
-<b>[ Antergos 17.8 / Manjaro 17.0.4 ]</b><br>
+- Antergos 17.8 / Manjaro 17.0.4
 ```
 $ su
 
@@ -84,7 +84,7 @@ $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
 $ tar -Jxvf data.tar.xz -C /
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
 ```
-<b>[ Manjaro 17.0.2 ]</b><br>
+- Manjaro 17.0.2
 ```
 安装方法跟以上 Antergos 一样, 但运行 youdao-dict 可能会出现 Cannot mix incompatible Qt library (version 0x50701..
 这样的错误, 解决方法是重安装 qt5-styleplugins (安装 aurget 以重安装)
@@ -101,7 +101,7 @@ $ tar -xvf v4.7.2.tar.gz && cd aurget-4.7.2 && sudo make install
 
 $ aurget -S qt5-styleplugins
 ```
-<b>[ Solus OS 3 ]</b><br>
+- Solus OS 3
 ```
 $ su
 
@@ -118,7 +118,7 @@ $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
 $ tar -Jxvf data.tar.xz -C /
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
 ```
-<b>[ Uninstall ] ( 做给以上用 tar 指令来安装的 Linux 分发版 )</b><br>
+- Uninstall ( 做给以上用 tar 指令来安装的 Linux 分发版 )
 ```
 $ rm -rf ~/.config/youdao-dict
 $ rm -rf ~/.cache/youdao-dict
@@ -132,7 +132,7 @@ $ dpkg -r youdao-dict
 $ wget https://raw.githubusercontent.com/yomun/youdaodict_5.5/master/youdaodict-uninstall.sh
 $ bash youdaodict-uninstall.sh
 ```
-<b>[ 图标不能显示问题 ]</b><br>
+- 图标不能显示问题
 ```
 $ su
 $ rm -rf /usr/share/icons/hicolor/icon-theme.cache
