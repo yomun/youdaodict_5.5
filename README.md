@@ -23,7 +23,7 @@ $ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb
 
 $ apt install ubuntu-restricted-extras
 
-$ su username
+$ su $USERNAME
 $ xhost + && youdao-dict
 
 遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题
@@ -62,7 +62,7 @@ $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
 $ tar -Jxvf data.tar.xz  -C /
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
 
-$ su username
+$ su $USERNAME
 $ xhost + && youdao-dict
 
 遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题
