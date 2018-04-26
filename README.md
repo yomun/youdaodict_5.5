@@ -13,22 +13,24 @@ $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ub
 <br>
 <b>[ Ubuntu 16.04 - 17.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1 ]</b><br>
 <br>
-`$ su root
+```
+$ su root
 $ apt install python3 python3-dbus python3-requests python3-lxml python3-pil python3-xdg python3-xlib
 $ apt install python3-pyqt5 python3-pyqt5.qtmultimedia python3-pyqt5.qtquick python3-pyqt5.qtwebkit
-<br>
-$ apt install gir1.2-appindicator3-0.1 qml-module-qtgraphicaleffects qml-module-qtquick-controls<br>
-$ apt install libqt5multimedia5-plugins ttf-wqy-microhei<br>
-$ apt install tesseract-ocr tesseract-ocr-eng tesseract-ocr-chi-sim tesseract-ocr-chi-tra<br>
-$ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
-<br>
-$ apt install ubuntu-restricted-extras<br>
-<br>
-$ su username<br>
-$ xhost + && youdao-dict<br>
-<br>
-遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题<br>
-则需要 xhost + 指令, 这是 python-xlib 引起的 bugs<br>`
+
+$ apt install gir1.2-appindicator3-0.1 qml-module-qtgraphicaleffects qml-module-qtquick-controls
+$ apt install libqt5multimedia5-plugins ttf-wqy-microhei
+$ apt install tesseract-ocr tesseract-ocr-eng tesseract-ocr-chi-sim tesseract-ocr-chi-tra
+$ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb
+
+$ apt install ubuntu-restricted-extras
+
+$ su username
+$ xhost + && youdao-dict
+
+遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题
+则需要 xhost + 指令, 这是 python-xlib 引起的 bugs
+```
 <br>
 <b>[ Fedora 26 - 27 ]</b><br>
 <br>
