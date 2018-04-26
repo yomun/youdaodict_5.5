@@ -11,7 +11,7 @@ http://packages.deepin.com/deepin/pool/main/y/youdao-dict/<br>
 $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb
 ```
 开始安装需要的依赖软件包, 然后才安装以上有道词典<br>
-<br>
+
 - Ubuntu 16.04 - 17.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
 ```
 $ su root
