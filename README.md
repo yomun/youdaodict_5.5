@@ -30,7 +30,6 @@ $ xhost + && youdao-dict
 遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题
 则需要 xhost + 指令, 这是 python-xlib 引起的 bugs
 ```
-<br>
 <b>[ Fedora 26 - 27 ]</b><br>
 ```
 $ touch ~/.Xauthority
