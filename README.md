@@ -13,9 +13,9 @@ $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ub
 <br>
 <b>[ Ubuntu 16.04 - 17.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1 ]</b><br>
 <br>
-`$ su root<br>
-$ apt install python3 python3-dbus python3-requests python3-lxml python3-pil python3-xdg python3-xlib<br>
-$ apt install python3-pyqt5 python3-pyqt5.qtmultimedia python3-pyqt5.qtquick python3-pyqt5.qtwebkit<br>
+`$ su root
+$ apt install python3 python3-dbus python3-requests python3-lxml python3-pil python3-xdg python3-xlib
+$ apt install python3-pyqt5 python3-pyqt5.qtmultimedia python3-pyqt5.qtquick python3-pyqt5.qtwebkit
 <br>
 $ apt install gir1.2-appindicator3-0.1 qml-module-qtgraphicaleffects qml-module-qtquick-controls<br>
 $ apt install libqt5multimedia5-plugins ttf-wqy-microhei<br>
