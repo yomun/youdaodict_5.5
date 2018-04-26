@@ -118,17 +118,17 @@ $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
 $ tar -Jxvf data.tar.xz -C /
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
 ```
-- Uninstall ( 做给以上用 tar 指令来安装的 Linux 分发版 )
+- 卸载
 ```
 $ rm -rf ~/.config/youdao-dict
 $ rm -rf ~/.cache/youdao-dict
 
 $ su
 
-如果是 dpkg 安装 DEB 的, 用
+如果是 dpkg 安装的话
 $ dpkg -r youdao-dict
 
-如果是 tar 的话, 则用
+如果是 tar 安装的话
 $ wget https://raw.githubusercontent.com/yomun/youdaodict_5.5/master/youdaodict-uninstall.sh
 $ bash youdaodict-uninstall.sh
 ```
