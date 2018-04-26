@@ -13,7 +13,7 @@ $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ub
 <br>
 <b>[ Ubuntu 16.04 - 17.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1 ]</b><br>
 <br>
-$ su<br>
+$ su root<br>
 $ apt install python3 python3-dbus python3-requests python3-lxml python3-pil python3-xdg python3-xlib<br>
 $ apt install python3-pyqt5 python3-pyqt5.qtmultimedia python3-pyqt5.qtquick python3-pyqt5.qtwebkit<br>
 <br>
@@ -23,6 +23,7 @@ $ apt install tesseract-ocr tesseract-ocr-eng tesseract-ocr-chi-sim tesseract-oc
 <br>
 $ apt install ubuntu-restricted-extras<br>
 <br>
+$ su username<br>
 $ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
 $ xhost + && youdao-dict<br>
 <br>
@@ -47,7 +48,7 @@ $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary<br>
 <br>
 <b>[ OpenSUSE Tumbleweed ]</b><br>
 <br>
-$ su<br>
+$ su root<br>
 $ zypper install python python3 python-xlib python3-pip<br>
 $ pip install pyxdg<br>
 $ pip3 install --upgrade pip<br>
@@ -61,6 +62,7 @@ $ zypper install tesseract-ocr-traineddata-english tesseract-ocr-devel<br>
 $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb<br>
 $ tar -Jxvf data.tar.xz  -C /<br>
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary<br>
+$ su username<br>
 $ xhost + && youdao-dict<br>
 <br>
 遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题<br>
