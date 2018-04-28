@@ -70,7 +70,7 @@ $ pacman -Syyu
 
 $ pacman -S wget base-devel
 
-$ su username
+$ su $USERNAME
 
 $ wget https://github.com/pbrisbin/aurget/archive/v4.7.2.tar.gz
 $ tar -xvf v4.7.2.tar.gz && cd aurget-4.7.2 && sudo make install
