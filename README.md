@@ -95,7 +95,7 @@ $ eopkg install binutils
 ```
 $ su
 
-如果是 dpkg 安装的话
+如果是 dpkg 安装的话 (基于 Ubuntu / Debian / Linux Mint / Zorin OS)
 $ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb
 
 如果是 tar 安装的话 (其实就是将 deb 解压, 把文件放到系统各处)
