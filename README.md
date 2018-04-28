@@ -4,11 +4,11 @@
 它支持 PyQt 5.6 和 SIP 4.18.1 版本 (Ubuntu 16.10 / Fedora 24 / OpenSUSE 42.2 等开始的发行版)<br>
 http://packages.deepin.com/deepin/pool/main/y/youdao-dict/
 
-1) 先取得有道词典安装包 (需要3D加速, 假设显卡驱动已安装了)<br>
+1) 取得有道词典安装包 (需要3D加速, 假设显卡驱动已安装了)
 ```
 $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb
 ```
-2) 开始安装需要的依赖软件包, 然后才安装以上有道词典<br>
+2) 开始安装需要的依赖软件包
 
 - Ubuntu 16.04 - 18.04 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
 ```
@@ -20,15 +20,7 @@ $ apt install gir1.2-appindicator3-0.1 qml-module-qtgraphicaleffects qml-module-
 $ apt install libqt5multimedia5-plugins ttf-wqy-microhei
 $ apt install tesseract-ocr tesseract-ocr-eng tesseract-ocr-chi-sim tesseract-ocr-chi-tra
 
-$ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb
-
 $ apt install ubuntu-restricted-extras
-
-$ su $USERNAME
-$ xhost + && youdao-dict
-
-遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题
-则需要 xhost + 指令, 这是 python-xlib 引起的 bugs
 ```
 - Fedora 26 - 27
 ```
@@ -43,10 +35,6 @@ $ dnf install python3-qt5 python3-qt5-devel python3-qt5-webkit
 $ dnf install libappindicator-gtk3 qt5-qtgraphicaleffects qt5-qtquickcontrols qt5-qtbase-devel
 $ dnf install tesseract-devel tesseract-langpack-enm
 $ dnf install tesseract-langpack-chi_sim tesseract-langpack-chi_tra
-
-$ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
-$ tar -Jxvf data.tar.xz  -C /
-$ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
 ```
 - OpenSUSE Tumbleweed
 ```
@@ -61,16 +49,6 @@ $ zypper install typelib-1_0-AppIndicator3-0_1 libqt5-qtgraphicaleffects libqt5-
 $ zypper install tesseract-ocr-devel tesseract-ocr-traineddata-english
 $ zypper install tesseract-ocr-traineddata-chinese_simplified
 $ zypper install tesseract-ocr-traineddata-chinese_traditional
-
-$ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
-$ tar -Jxvf data.tar.xz  -C /
-$ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
-
-$ su $USERNAME
-$ xhost + && youdao-dict
-
-遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题
-所以需要 xhost + 指令, 这是 python-xlib 引起的 bugs
 ```
 - Antergos 17.8 / Manjaro 17.0.4
 ```
@@ -81,10 +59,6 @@ $ pacman -S python-requests python-lxml python-pillow python-pyqt5 pyqt5-common
 $ pacman -S libappindicator-gtk3 qt5-graphicaleffects qt5-quickcontrols qt5-webkit qt5-base
 $ pacman -S wqy-microhei binutils
 $ pacman -S tesseract tesseract-data-eng tesseract-data-chi_sim tesseract-data-chi_tra
-
-$ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
-$ tar -Jxvf data.tar.xz -C /
-$ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
 ```
 - Manjaro 17.0.2
 ```
@@ -117,9 +91,24 @@ $ eopkg install libappindicator qt5-graphicaleffects qt5-quickcontrols
 $ eopkg install tesseract tessdata
 
 $ eopkg install binutils
+```
+3) 安装有道词典
+```
+如果是 dpkg 安装的话
+$ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb
+
+如果是 tar 安装的话
 $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
-$ tar -Jxvf data.tar.xz -C /
+$ tar -Jxvf data.tar.xz  -C /
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
+```
+4) 运行
+```
+$ su $USERNAME
+$ xhost + && youdao-dict
+
+遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题
+则需要 xhost + 指令, 这是 python-xlib 引起的 bugs
 ```
 - 卸载
 ```
