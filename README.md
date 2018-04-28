@@ -105,9 +105,9 @@ $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
 ```
 4) 运行 youdao-dict (用非root户口)
 ```
-$ su $USERNAME
-
 如果点击图标, 不能打开有道词典
+
+$ su $USERNAME
 $ xhost + && youdao-dict
 
 遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题
