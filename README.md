@@ -8,7 +8,7 @@ http://packages.deepin.com/deepin/pool/main/y/youdao-dict/
 ```
 $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb
 ```
-2) 开始安装需要的依赖软件包
+2) 安装需要的依赖软件包
 
 - Ubuntu 16.04 - 18.04 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
 ```
@@ -92,10 +92,12 @@ $ eopkg install binutils
 ```
 3) 安装有道词典
 ```
+$ su
+
 如果是 dpkg 安装的话
 $ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb
 
-如果是 tar 安装的话
+如果是 tar 安装的话 (其实就是将 deb 解压放到系统各处)
 $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
 $ tar -Jxvf data.tar.xz  -C /
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
