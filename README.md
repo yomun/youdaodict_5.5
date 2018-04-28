@@ -112,7 +112,7 @@ $ xhost + && youdao-dict
 遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题
 则需要 xhost + 指令, 这是 python-xlib 引起的 bugs
 ```
-- 卸载
+5) 卸载
 ```
 $ rm -rf ~/.config/youdao-dict
 $ rm -rf ~/.cache/youdao-dict
