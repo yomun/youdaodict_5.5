@@ -105,7 +105,7 @@ $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
 ```
 4) 运行 youdao-dict (用非root户口)
 ```
-如果点击图标, 不能打开有道词典
+如果点击有道词典图标, 但不能打开..
 
 $ su $USERNAME
 $ xhost + && youdao-dict
