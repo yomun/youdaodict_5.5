@@ -8,7 +8,7 @@ http://packages.deepin.com/deepin/pool/main/y/youdao-dict/
 ```
 $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb
 ```
-2.1) 安装依赖软件包
+2) 安装依赖软件包
 - Ubuntu 16.04 - 18.04 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
 ```
 $ su
@@ -90,7 +90,7 @@ $ eopkg install tesseract tessdata
 
 $ eopkg install binutils
 ```
-2.2) 安装有道词典
+3) 安装有道词典
 ```
 $ su
 
@@ -102,7 +102,7 @@ $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
 $ tar -Jxvf data.tar.xz -C /
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
 ```
-3) 运行 youdao-dict (用非root户口)
+4) 运行 youdao-dict (用非root户口)
 ```
 如果点击有道词典图标, 但不能打开..
 
