@@ -103,7 +103,7 @@ $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
 $ tar -Jxvf data.tar.xz  -C /
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
 ```
-4) 运行
+4) 运行 (用非root户口)
 ```
 $ su $USERNAME
 $ xhost + && youdao-dict
