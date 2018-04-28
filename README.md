@@ -12,7 +12,7 @@ $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ub
 
 - Ubuntu 16.04 - 18.04 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
 ```
-$ su root
+$ su
 $ apt install python3 python3-dbus python3-requests python3-lxml python3-pil python3-xdg python3-xlib
 $ apt install python3-pyqt5 python3-pyqt5.qtmultimedia python3-pyqt5.qtquick python3-pyqt5.qtwebkit
 
@@ -38,7 +38,7 @@ $ dnf install tesseract-langpack-chi_sim tesseract-langpack-chi_tra
 ```
 - OpenSUSE Tumbleweed
 ```
-$ su root
+$ su
 $ zypper install python python3 python-xlib python3-pip
 $ pip install pyxdg
 $ pip3 install --upgrade pip
@@ -53,7 +53,6 @@ $ zypper install tesseract-ocr-traineddata-chinese_traditional
 - Antergos 17.8 / Manjaro 17.0.4
 ```
 $ su
-
 $ pacman -S python python-xlib python-xdg python-dbus
 $ pacman -S python-requests python-lxml python-pillow python-pyqt5 pyqt5-common
 $ pacman -S libappindicator-gtk3 qt5-graphicaleffects qt5-quickcontrols qt5-webkit qt5-base
@@ -81,7 +80,6 @@ $ aurget -S qt5-styleplugins
 - Solus OS 3
 ```
 $ su
-
 $ pip3 install --upgrade pip
 $ pip3 install pyxdg
 
