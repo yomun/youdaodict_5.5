@@ -1,6 +1,6 @@
 ![Screencast](https://2.bp.blogspot.com/-a1ldr3X2U1s/WZAIrNamPxI/AAAAAAAAAjw/CGVeNEUzjWk2pK71C4PwuMIzRFwc9ROawCLcBGAs/s1600/youdao.png)
 ### 有道词典 v1.1.1 ( 支持 PyQt 5.5 或以上 )
-这个有道词典最新源码是从 Deepin 15.4.1 (youdao-dict_1.0.8-1_amd64.deb) 取出, 然后重新打包成 Ubuntu 能用的 deb 包<br>
+这个有道词典是从 Deepin 15.4.1 (youdao-dict_1.0.8-1_amd64.deb) 取出, 然后重新打包成 Ubuntu 能用的 deb 安装包<br>
 它支持 Ubuntu 16.10 / Fedora 24 / OpenSUSE 42.2 等开始的发行版<br>
 http://packages.deepin.com/deepin/pool/main/y/youdao-dict/
 
@@ -8,7 +8,7 @@ http://packages.deepin.com/deepin/pool/main/y/youdao-dict/
 ```
 $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb
 ```
-2) 安装依赖软件包
+2) 先安装依赖软件包
 - Ubuntu 16.04 - 18.04 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
 ```
 $ su
