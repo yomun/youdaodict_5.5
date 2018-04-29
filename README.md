@@ -20,6 +20,8 @@ $ apt install libqt5multimedia5-plugins ttf-wqy-microhei
 $ apt install tesseract-ocr tesseract-ocr-eng tesseract-ocr-chi-sim tesseract-ocr-chi-tra
 
 $ apt install ubuntu-restricted-extras
+
+Ubuntu 18.04 用 fonts-wqy-microhei 取代了 ttf-wqy-microhei
 ```
 - Fedora 26 - 27
 ```
