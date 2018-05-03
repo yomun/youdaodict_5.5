@@ -47,8 +47,8 @@ $ pip3 install python3-xlib
 ```
 $ su
 $ zypper install python3 python3-pip
-$ pip3 install pyxdg
 $ pip3 install --upgrade pip
+$ pip3 install pyxdg
 $ pip3 install python3-xlib
 
 $ zypper install python3-requests python3-lxml python3-Pillow python3-qt5 python3-qt5-devel
