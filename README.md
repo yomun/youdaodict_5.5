@@ -60,7 +60,7 @@ $ zypper install tesseract-ocr-traineddata-chinese_traditional
 - Antergos 17.8 / Manjaro 17.0.4
 ```
 $ su
-$ pacman -S python python-xlib python-xdg
+$ pacman -S python python-xdg python-xlib
 $ pacman -S python-dbus python-lxml python-pillow python-requests python-pyqt5 pyqt5-common
 $ pacman -S libappindicator-gtk3 qt5-graphicaleffects qt5-quickcontrols qt5-webkit qt5-base
 $ pacman -S wqy-microhei binutils
