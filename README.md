@@ -33,7 +33,7 @@ Ubuntu 18.04 用 fonts-wqy-microhei 取代了 ttf-wqy-microhei
 $ touch ~/.Xauthority
 
 $ su
-$ dnf install python3 python3-pip
+$ dnf install python3
 
 $ dnf install python3-dbus python3-lxml python3-pillow python3-requests python3-pyxdg python3-xlib
 $ dnf install python3-qt5 python3-qt5-devel python3-qt5-webkit
@@ -42,6 +42,7 @@ $ dnf install tesseract-devel tesseract-langpack-enm
 $ dnf install tesseract-langpack-chi_sim tesseract-langpack-chi_tra
 
 旧版的软件库没提供, 所以要用 pip3 安装之..
+$ dnf install python3-pip
 $ pip3 install python3-xlib
 ```
 - OpenSUSE Tumbleweed
