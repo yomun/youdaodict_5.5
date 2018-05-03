@@ -8,10 +8,13 @@ http://packages.deepin.com/deepin/pool/main/y/youdao-dict/
 ```
 $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb
 ```
-2) 先安装依赖软件包 (别用 pip3 安装 pyqt5, 因缺所需模块)
+2) 检查有没有用 pip3 安装 PyQt5
 ```
+卸载掉, 因它缺所需模块
 $ pip3 uninstall pyqt5
+$ sudo pip3 uninstall pyqt5
 ```
+3) 安装依赖软件包
 - Ubuntu 16.04 - 18.04 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
 ```
 $ su
@@ -100,7 +103,7 @@ $ eopkg install tesseract tessdata
 
 $ eopkg install binutils
 ```
-3) 安装有道词典
+4) 安装有道词典
 ```
 $ su
 
@@ -112,7 +115,7 @@ $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
 $ tar -Jxvf data.tar.xz -C /
 $ rm -rf control.tar.gz && rm -rf data.tar.xz && rm -rf debian-binary
 ```
-4) 运行 youdao-dict (用非root户口)
+5) 运行 youdao-dict (用非root户口)
 ```
 如果点击有道词典图标, 但不能打开..
 
@@ -122,7 +125,7 @@ $ xhost + && youdao-dict
 遇到 Xlib.error.DisplayConnectionError: Can't connect to display “:0”: b'No protocol specified\n' 问题
 则需要 xhost + 指令, 这是 python-xlib 引起的 bugs
 ```
-5) 卸载
+6) 卸载
 ```
 $ rm -rf ~/.config/youdao-dict
 $ rm -rf ~/.cache/youdao-dict
