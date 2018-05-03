@@ -31,9 +31,7 @@ Ubuntu 18.04 用 fonts-wqy-microhei 取代了 ttf-wqy-microhei
 $ touch ~/.Xauthority
 
 $ su
-$ dnf install python3 python3-pip -y
-
-$ pip3 install --upgrade pip
+$ dnf install python3 python3-pip
 
 $ dnf install python3-dbus python3-lxml python3-pillow python3-requests python3-pyxdg python3-xlib
 $ dnf install python3-qt5 python3-qt5-devel python3-qt5-webkit
