@@ -32,6 +32,7 @@ $ touch ~/.Xauthority
 
 $ su
 $ dnf install python3 python3-pip -y
+
 $ pip3 install --upgrade pip
 
 $ dnf install python3-dbus python3-lxml python3-pillow python3-requests python3-pyxdg python3-xlib
@@ -46,12 +47,13 @@ $ pip3 install python3-xlib
 - OpenSUSE Tumbleweed
 ```
 $ su
+
 $ zypper install python3 python3-pip
+
 $ pip3 install --upgrade pip
-$ pip3 install pyxdg
 $ pip3 install python3-xlib
 
-$ zypper install python3-lxml python3-Pillow python3-requests python3-qt5 python3-qt5-devel
+$ zypper install python3-lxml python3-Pillow python3-requests python3-pyxdg python3-qt5 python3-qt5-devel
 $ zypper install typelib-1_0-AppIndicator3-0_1 libqt5-qtgraphicaleffects libqt5-qtquickcontrols
 $ zypper install tesseract-ocr-devel tesseract-ocr-traineddata-english
 $ zypper install tesseract-ocr-traineddata-chinese_simplified
