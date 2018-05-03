@@ -8,7 +8,7 @@ http://packages.deepin.com/deepin/pool/main/y/youdao-dict/
 ```
 $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb
 ```
-2) 先安装依赖软件包 (别用 pip3 安装 pyqt5)
+2) 先安装依赖软件包 (别用 pip3 安装 pyqt5, 因缺所需模块)
 ```
 $ pip3 uninstall pyqt5
 ```
