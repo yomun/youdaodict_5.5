@@ -15,7 +15,7 @@ $ pip3 uninstall pyqt5
 - Ubuntu 16.04 - 18.04 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
 ```
 $ su
-$ apt install python3 python3-dbus python3-requests python3-lxml python3-pil python3-xdg python3-xlib
+$ apt install python3 python3-dbus python3-lxml python3-pil python3-requests python3-xdg python3-xlib
 $ apt install python3-pyqt5 python3-pyqt5.qtmultimedia python3-pyqt5.qtquick python3-pyqt5.qtwebkit
 
 $ apt install gir1.2-appindicator3-0.1 qml-module-qtgraphicaleffects qml-module-qtquick-controls
@@ -31,10 +31,10 @@ Ubuntu 18.04 用 fonts-wqy-microhei 取代了 ttf-wqy-microhei
 $ touch ~/.Xauthority
 
 $ su
-$ dnf install python3 python3-xlib python3-pip -y
+$ dnf install python3 python3-pip -y
 $ pip3 install --upgrade pip
 
-$ dnf install python3-requests python3-lxml python3-pillow
+$ dnf install python3-dbus python3-lxml python3-pillow python3-requests python3-xlib
 $ dnf install python3-qt5 python3-qt5-devel python3-qt5-webkit
 $ dnf install libappindicator-gtk3 qt5-qtgraphicaleffects qt5-qtquickcontrols qt5-qtbase-devel
 $ dnf install tesseract-devel tesseract-langpack-enm
@@ -51,7 +51,7 @@ $ pip3 install --upgrade pip
 $ pip3 install pyxdg
 $ pip3 install python3-xlib
 
-$ zypper install python3-requests python3-lxml python3-Pillow python3-qt5 python3-qt5-devel
+$ zypper install python3-lxml python3-Pillow python3-requests python3-qt5 python3-qt5-devel
 $ zypper install typelib-1_0-AppIndicator3-0_1 libqt5-qtgraphicaleffects libqt5-qtquickcontrols
 $ zypper install tesseract-ocr-devel tesseract-ocr-traineddata-english
 $ zypper install tesseract-ocr-traineddata-chinese_simplified
@@ -60,8 +60,8 @@ $ zypper install tesseract-ocr-traineddata-chinese_traditional
 - Antergos 17.8 / Manjaro 17.0.4
 ```
 $ su
-$ pacman -S python python-xlib python-xdg python-dbus
-$ pacman -S python-requests python-lxml python-pillow python-pyqt5 pyqt5-common
+$ pacman -S python python-xlib python-xdg
+$ pacman -S python-dbus python-lxml python-pillow python-requests python-pyqt5 pyqt5-common
 $ pacman -S libappindicator-gtk3 qt5-graphicaleffects qt5-quickcontrols qt5-webkit qt5-base
 $ pacman -S wqy-microhei binutils
 $ pacman -S tesseract tesseract-data-eng tesseract-data-chi_sim tesseract-data-chi_tra
@@ -90,7 +90,7 @@ $ su
 $ pip3 install --upgrade pip
 $ pip3 install pyxdg
 
-$ eopkg install python3 python3-dbus python-requests python-lxml python-pillow python3-xlib
+$ eopkg install python3 python3-dbus python-lxml python-pillow python-requests python3-xlib
 $ eopkg install python3-qt5 qt5-multimedia qt5-webkit
 $ eopkg install libappindicator qt5-graphicaleffects qt5-quickcontrols
 $ eopkg install tesseract tessdata
