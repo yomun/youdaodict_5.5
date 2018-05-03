@@ -47,7 +47,7 @@ $ pip3 install python3-xlib
 ```
 $ su
 $ zypper install python3 python3-pip
-$ pip install pyxdg
+$ pip3 install pyxdg
 $ pip3 install --upgrade pip
 $ pip3 install python3-xlib
 
