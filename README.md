@@ -26,25 +26,27 @@ $ apt install ubuntu-restricted-extras
 
 Ubuntu 18.04 用 fonts-wqy-microhei 取代了 ttf-wqy-microhei
 ```
-- Fedora 26 - 27
+- Fedora 26 - 28
 ```
 $ touch ~/.Xauthority
 
 $ su
-$ dnf install python python3 python-xlib python3-pip -y
+$ dnf install python3 python3-xlib python3-pip -y
 $ pip3 install --upgrade pip
-$ pip3 install python3-xlib
 
 $ dnf install python3-requests python3-lxml python3-pillow
 $ dnf install python3-qt5 python3-qt5-devel python3-qt5-webkit
 $ dnf install libappindicator-gtk3 qt5-qtgraphicaleffects qt5-qtquickcontrols qt5-qtbase-devel
 $ dnf install tesseract-devel tesseract-langpack-enm
 $ dnf install tesseract-langpack-chi_sim tesseract-langpack-chi_tra
+
+旧版的软件库没提供, 所以要用 pip3 安装之..
+$ pip3 install python3-xlib
 ```
 - OpenSUSE Tumbleweed
 ```
 $ su
-$ zypper install python python3 python-xlib python3-pip
+$ zypper install python3 python3-pip
 $ pip install pyxdg
 $ pip3 install --upgrade pip
 $ pip3 install python3-xlib
