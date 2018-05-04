@@ -8,13 +8,13 @@ http://packages.deepin.com/deepin/pool/main/y/youdao-dict/
 ```
 $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb
 ```
-2) 如有 pip3 安装的 PyQt5, 卸载之.. (因它缺所需模块)
+2) 如有 pip3 安装的 PyQt5, 卸载之.. (因它缺所需旧模块)
 ```
 如有显示 PyQt5 (5.10.1), 卸载之..
 $ pip3 list | grep PyQt5
 $ pip3 uninstall pyqt5
 
-root 户口也一样
+root 户口也一样要
 $ sudo pip3 list | grep PyQt5
 $ sudo pip3 uninstall pyqt5
 ```
