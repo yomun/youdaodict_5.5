@@ -48,7 +48,7 @@ $ dnf install libappindicator-gtk3 qt5-qtgraphicaleffects qt5-qtquickcontrols qt
 $ dnf install tesseract-devel tesseract-langpack-enm
 $ dnf install tesseract-langpack-chi_sim tesseract-langpack-chi_tra
 
-旧版的软件库没提供, 所以要用 pip3 安装之..
+旧版的软件库没提供 python3-xlib 的话, 可以用 pip3 安装之..
 $ dnf install python3-pip
 $ pip3 install python3-xlib
 ```
