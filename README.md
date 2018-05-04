@@ -10,10 +10,12 @@ $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ub
 ```
 2) 如有 pip3 安装的 PyQt5, 卸载之.. (因它缺所需模块)
 ```
+如有显示 PyQt5 (5.10.1), 卸载之..
 $ pip3 list | grep PyQt5
-$ sudo pip3 list | grep PyQt5
-
 $ pip3 uninstall pyqt5
+
+root 户口也一样
+$ sudo pip3 list | grep PyQt5
 $ sudo pip3 uninstall pyqt5
 ```
 3) 安装依赖软件包
