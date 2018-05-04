@@ -55,7 +55,6 @@ $ pip3 install python3-xlib
 - OpenSUSE Tumbleweed
 ```
 $ su
-
 $ zypper install python3 python3-pyxdg python3-pip
 
 $ pip3 install --upgrade pip
