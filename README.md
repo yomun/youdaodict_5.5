@@ -19,7 +19,7 @@ $ sudo pip3 list | grep PyQt5
 $ sudo pip3 uninstall pyqt5
 ```
 3) 安装依赖软件包
-- Ubuntu 16.04 - 18.04 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
+- Ubuntu 16.04 - 18.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
 ```
 $ su
 $ apt install python3
