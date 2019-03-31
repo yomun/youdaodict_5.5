@@ -12,11 +12,11 @@ $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ub
 ```
 如有显示 PyQt5 (5.10.1), 卸载之..
 $ pip3 list | grep PyQt5
-$ pip3 uninstall pyqt5
+$ pip3 uninstall PyQt5
 
 root 户口也一样要
 $ sudo pip3 list | grep PyQt5
-$ sudo pip3 uninstall pyqt5
+$ sudo pip3 uninstall PyQt5
 
 如果安装有道词典后无法发声, 请检查这步
 ```
