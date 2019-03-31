@@ -158,13 +158,17 @@ $ rm -rf /usr/share/icons/hicolor/icon-theme.cache
 
 如还不行, 建议加入 PYTHONPATH 环境变量
 
-$ su
+$ su root
 $ gedit /usr/share/applications/youdao-dict.desktop
 
 ### Exec=youdao-dict %f
 Exec=env PYTHONPATH=/usr/lib/python3/dist-packages youdao-dict %f
 
 也可以在 ~/.bashrc 或 ~/.profile 加入
+
+$ su $USERNAME
+$ gedit ~/.bashrc 或 source ~/.profile
+
 export PYTHONPATH=$PYTHONPATH:/usr/lib/python3/dist-packages
 然后运行
 $ source ~/.bashrc 或 source ~/.profile
