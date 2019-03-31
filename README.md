@@ -17,6 +17,8 @@ $ pip3 uninstall pyqt5
 root 户口也一样要
 $ sudo pip3 list -l | grep PyQt5
 $ sudo pip3 uninstall pyqt5
+
+安装后如果有道词典无法发声, 请检查这步
 ```
 3) 安装依赖软件包
 - Ubuntu 16.04 - 18.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
