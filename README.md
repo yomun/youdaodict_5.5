@@ -147,3 +147,17 @@ $ bash youdaodict-uninstall.sh
 $ su
 $ rm -rf /usr/share/icons/hicolor/icon-theme.cache
 ```
+- PYTHONPATH 环境变量
+```
+如果出现 ModuleNotFoundError: No module named 'PyQt5.QtWebKitWidgets'
+$ sudo gedit /usr/share/applications/youdao-dict.desktop
+
+### Exec=youdao-dict %f
+Exec=env PYTHONPATH=/usr/lib/python3/dist-packages youdao-dict %f
+
+也可以在 ~/.bashrc 加入
+export PYTHONPATH=$PYTHONPATH:/usr/lib/python3/dist-packages
+然后运行
+$ source ~/.bashrc
+$ youdao-dict
+```
