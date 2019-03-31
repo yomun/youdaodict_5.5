@@ -13,6 +13,7 @@ $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ub
 如有显示 PyQt5 (5.12.1), 卸载之..
 $ su
 $ pip3 list | grep PyQt5
+
 $ pip3 uninstall PyQt5
 $ pip3 uninstall PyQt5-sip
 
@@ -166,7 +167,9 @@ $ su $USERNAME
 $ gedit ~/.bashrc 或 source ~/.profile
 
 export PYTHONPATH=$PYTHONPATH:/usr/lib/python3/dist-packages
+
 然后运行
+
 $ source ~/.bashrc 或 source ~/.profile
 $ youdao-dict
 ```
