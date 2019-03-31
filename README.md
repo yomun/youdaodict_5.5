@@ -25,7 +25,7 @@ $ pip3 uninstall PyQt5
 - Ubuntu 16.04 - 18.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
 ```
 $ su
-$ apt install python3
+$ apt install python3 python3-pip
 
 $ apt install python3-dbus python3-lxml python3-pil python3-requests python3-xdg python3-xlib
 $ apt install python3-pyqt5 python3-pyqt5.qtmultimedia python3-pyqt5.qtquick python3-pyqt5.qtwebkit
