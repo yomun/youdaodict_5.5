@@ -153,7 +153,9 @@ $ rm -rf /usr/share/icons/hicolor/icon-theme.cache
 ```
 如果依赖软件包安装完后,
 还是会出现 ModuleNotFoundError: No module named 'PyQt5.QtWebKitWidgets'
-建议加入 PYTHONPATH 环境变量
+先检查是否用 pip3 安装了 PyQt5, 如有就卸载
+
+如还不行, 建议加入 PYTHONPATH 环境变量
 
 $ su
 $ gedit /usr/share/applications/youdao-dict.desktop
