@@ -149,18 +149,19 @@ $ rm -rf /usr/share/icons/hicolor/icon-theme.cache
 ```
 - PYTHONPATH 环境变量
 ```
-如果依赖软件包安装完了,
-还是出现 ModuleNotFoundError: No module named 'PyQt5.QtWebKitWidgets'
+如果依赖软件包安装完后,
+还是会出现 ModuleNotFoundError: No module named 'PyQt5.QtWebKitWidgets'
 建议加入 PYTHONPATH 环境变量
 
-$ sudo gedit /usr/share/applications/youdao-dict.desktop
+$ su
+$ gedit /usr/share/applications/youdao-dict.desktop
 
 ### Exec=youdao-dict %f
 Exec=env PYTHONPATH=/usr/lib/python3/dist-packages youdao-dict %f
 
-也可以在 ~/.bashrc 加入
+也可以在 ~/.bashrc 或 ~/.profile 加入
 export PYTHONPATH=$PYTHONPATH:/usr/lib/python3/dist-packages
 然后运行
-$ source ~/.bashrc
+$ source ~/.bashrc 或 source ~/.profile
 $ youdao-dict
 ```
