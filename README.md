@@ -15,8 +15,9 @@ $ pip3 list | grep PyQt5
 $ pip3 uninstall PyQt5
 
 root 户口也一样要
-$ sudo pip3 list | grep PyQt5
-$ sudo pip3 uninstall PyQt5
+$ su
+$ pip3 list | grep PyQt5
+$ pip3 uninstall PyQt5
 
 如果安装有道词典后无法发音, 请检查这步
 ```
