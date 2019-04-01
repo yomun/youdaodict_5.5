@@ -36,7 +36,7 @@ $ apt install ubuntu-restricted-extras
 
 Ubuntu 18.04 用 fonts-wqy-microhei 取代了 ttf-wqy-microhei
 ```
-- Fedora 26 - 28
+- Fedora 26 - 29
 ```
 $ touch ~/.Xauthority
 
