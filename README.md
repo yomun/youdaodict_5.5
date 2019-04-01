@@ -93,7 +93,7 @@ $ tar -xvf v4.7.2.tar.gz && cd aurget-4.7.2 && sudo make install
 
 $ aurget -S qt5-styleplugins
 ```
-- Solus OS 3
+- Solus OS 3-4
 ```
 $ su
 $ pip3 install --upgrade pip
