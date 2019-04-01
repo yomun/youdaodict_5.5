@@ -66,7 +66,7 @@ $ zypper install tesseract-ocr-devel tesseract-ocr-traineddata-english
 $ zypper install tesseract-ocr-traineddata-chinese_simplified
 $ zypper install tesseract-ocr-traineddata-chinese_traditional
 ```
-- Antergos 17.8 / Manjaro 17.0.4
+- Antergos 17.8 / Manjaro 17.0.4 - 18.0.4
 ```
 $ su
 $ pacman -S python python-xdg python-xlib
