@@ -18,7 +18,7 @@ $ pip3 uninstall PyQt5
 $ pip3 uninstall PyQt5-sip
 
 如果安装有道词典后无法发音, 请检查这步
-但, Fedora / Solus OS 跳过
+但, Fedora / Antergos / Manjaro / Solus OS 跳过
 ```
 3) 安装依赖软件包
 - Ubuntu 16.04 - 18.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
@@ -67,7 +67,7 @@ $ zypper install tesseract-ocr-devel tesseract-ocr-traineddata-english
 $ zypper install tesseract-ocr-traineddata-chinese_simplified
 $ zypper install tesseract-ocr-traineddata-chinese_traditional
 ```
-- Antergos 17.8 / Manjaro 17.0.4 - 18.0.4
+- Antergos 17.8 - 19.3 / Manjaro 17.0.4 - 18.0.4
 ```
 $ su
 $ pacman -S python python-xdg python-xlib
@@ -94,7 +94,7 @@ $ tar -xvf v4.7.2.tar.gz && cd aurget-4.7.2 && sudo make install
 
 $ aurget -S qt5-styleplugins
 ```
-- Solus OS 3-4
+- Solus OS 3 - 4
 ```
 $ su
 $ pip3 install --upgrade pip
