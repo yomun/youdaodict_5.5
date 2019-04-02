@@ -18,6 +18,7 @@ $ pip3 uninstall PyQt5
 $ pip3 uninstall PyQt5-sip
 
 如果安装有道词典后无法发音, 请检查这步
+但, Solus OS 跳过
 ```
 3) 安装依赖软件包
 - Ubuntu 16.04 - 18.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
