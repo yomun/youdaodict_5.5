@@ -165,6 +165,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> print(os.sys.path)
 ['', '/usr/lib/python36.zip', '/usr/lib/python3.6', '/usr/lib/python3/dist-packages']
 
+选一个可用的路径为 $PYTHONPATH
+
 $ su root
 $ gedit /usr/share/applications/youdao-dict.desktop
 
