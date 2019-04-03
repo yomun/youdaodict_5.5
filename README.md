@@ -163,7 +163,7 @@ Python 3.6.7 (default, Oct 22 2018, 11:32:17)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import os
 >>> print(os.sys.path)
-['', '/usr/lib/python36.zip', '/usr/lib/python3.6', '/usr/lib/python3.6/lib-dynload', '/usr/lib/python3/dist-packages']
+['', '/usr/lib/python36.zip', '/usr/lib/python3.6', '/usr/lib/python3/dist-packages']
 
 $ su root
 $ gedit /usr/share/applications/youdao-dict.desktop
