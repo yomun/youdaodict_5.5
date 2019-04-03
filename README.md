@@ -101,9 +101,8 @@ $ pip3 install --upgrade pip
 $ pip3 install pyxdg
 $ pip3 install python3-xlib
 
-$ eopkg install python3 python3-dbus python-lxml python-pillow python-requests
-$ eopkg install python3-qt5 qt5-multimedia qt5-webkit
-$ eopkg install libappindicator qt5-graphicaleffects qt5-quickcontrols
+$ eopkg install python3 python3-dbus python-lxml python-pillow python-requests python3-qt5
+$ eopkg install libappindicator qt5-graphicaleffects qt5-multimedia qt5-quickcontrols qt5-webkit
 $ eopkg install tesseract tessdata
 
 $ eopkg install binutils
