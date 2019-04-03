@@ -72,8 +72,8 @@ $ zypper install tesseract-ocr-traineddata-chinese_traditional
 $ su
 $ pacman -S python python-xdg python-xlib
 $ pacman -S python-dbus python-lxml python-pillow python-requests python-pyqt5 pyqt5-common
-$ pacman -S libappindicator-gtk3 qt5-graphicaleffects qt5-multimedia qt5-quickcontrols qt5-webkit qt5-base
-$ pacman -S wqy-microhei binutils
+$ pacman -S qt5-graphicaleffects qt5-multimedia qt5-quickcontrols qt5-webkit qt5-base
+$ pacman -S libappindicator-gtk3 wqy-microhei binutils
 $ pacman -S tesseract tesseract-data-eng tesseract-data-chi_sim tesseract-data-chi_tra
 ```
 - Manjaro 17.0.2
