@@ -73,7 +73,7 @@ $ pip3 install python3-xlib
 - Antergos 17.8 - 19.3 / Manjaro 17.0.4 - 18.0.4
 ```
 $ su
-$ pacman -S python python-xdg python-xlib
+$ pacman -S python python-pip python-xdg python-xlib
 $ pacman -S python-dbus python-lxml python-pillow python-requests python-pyqt5 pyqt5-common
 $ pacman -S qt5-graphicaleffects qt5-multimedia qt5-quickcontrols qt5-webkit qt5-base
 $ pacman -S libappindicator-gtk3 wqy-microhei binutils
