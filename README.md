@@ -51,6 +51,7 @@ $ dnf install tesseract-devel tesseract-langpack-enm
 $ dnf install tesseract-langpack-chi_sim tesseract-langpack-chi_tra
 
 旧版的软件库没提供 python3-xlib 的话, 可以用 pip3 安装之..
+$ pip3 install --upgrade pip
 $ pip3 install python3-xlib
 ```
 - OpenSUSE Tumbleweed
@@ -58,14 +59,15 @@ $ pip3 install python3-xlib
 $ su
 $ zypper install python3 python3-pyxdg python3-pip
 
-$ pip3 install --upgrade pip
-$ pip3 install python3-xlib
-
-$ zypper install python3-lxml python3-Pillow python3-requests python3-qt5 python3-qt5-devel
+$ zypper install python3-lxml python3-Pillow python3-requests python3-qt5 python3-qt5-devel python3-python-xlib
 $ zypper install typelib-1_0-AppIndicator3-0_1 libqt5-qtgraphicaleffects libqt5-qtquickcontrols
 $ zypper install tesseract-ocr-devel tesseract-ocr-traineddata-english
 $ zypper install tesseract-ocr-traineddata-chinese_simplified
 $ zypper install tesseract-ocr-traineddata-chinese_traditional
+
+旧版的软件库没提供 python3-python-xlib 的话, 可以用 pip3 安装之..
+$ pip3 install --upgrade pip
+$ pip3 install python3-xlib
 ```
 - Antergos 17.8 - 19.3 / Manjaro 17.0.4 - 18.0.4
 ```
