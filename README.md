@@ -24,9 +24,9 @@ $ pip3 uninstall PyQt5-sip
 - Ubuntu 16.04 - 18.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
 ```
 $ su
-$ apt install python3 python3-pip
+$ apt install python3 python3-pip python3-xdg python3-xlib
 
-$ apt install python3-dbus python3-lxml python3-pil python3-requests python3-xdg python3-xlib
+$ apt install python3-dbus python3-lxml python3-pil python3-requests
 $ apt install python3-pyqt5 python3-pyqt5.qtmultimedia python3-pyqt5.qtquick python3-pyqt5.qtwebkit
 
 $ apt install gir1.2-appindicator3-0.1 qml-module-qtgraphicaleffects qml-module-qtquick-controls
@@ -42,9 +42,9 @@ Ubuntu 18.04 用 fonts-wqy-microhei 取代了 ttf-wqy-microhei
 $ touch ~/.Xauthority
 
 $ su
-$ dnf install python3 python3-pip
+$ dnf install python3 python3-pip python3-pyxdg python3-xlib
 
-$ dnf install python3-dbus python3-lxml python3-pillow python3-requests python3-pyxdg python3-xlib
+$ dnf install python3-dbus python3-lxml python3-pillow python3-requests
 $ dnf install python3-qt5 python3-qt5-devel python3-qt5-webkit
 $ dnf install libappindicator-gtk3 qt5-qtgraphicaleffects qt5-qtquickcontrols qt5-qtbase-devel
 $ dnf install tesseract-devel tesseract-langpack-enm
@@ -57,10 +57,9 @@ $ pip3 install python3-xlib
 - OpenSUSE Tumbleweed
 ```
 $ su
-$ zypper install python3 python3-pyxdg python3-pip
+$ zypper install python3 python3-pip python3-pyxdg python3-python-xlib
 
-$ zypper install python3-lxml python3-Pillow python3-requests
-$ zypper install python3-qt5 python3-qt5-devel python3-python-xlib
+$ zypper install python3-lxml python3-Pillow python3-requests python3-qt5 python3-qt5-devel
 $ zypper install typelib-1_0-AppIndicator3-0_1 libqt5-qtgraphicaleffects libqt5-qtquickcontrols
 $ zypper install tesseract-ocr-devel tesseract-ocr-traineddata-english
 $ zypper install tesseract-ocr-traineddata-chinese_simplified
