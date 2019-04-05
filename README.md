@@ -57,10 +57,11 @@ $ pip3 install python3-xlib
 - OpenSUSE Tumbleweed
 ```
 $ su
-$ zypper install python3 python3-pip python3-pyxdg python3-python-xlib python3-dbus-python
+$ zypper install python3 python3-pip python3-pyxdg python3-python-xlib
 
 $ zypper install python3-lxml python3-Pillow python3-requests python3-qt5 python3-qt5-devel
 $ zypper install typelib-1_0-AppIndicator3-0_1 libqt5-qtgraphicaleffects libqt5-qtquickcontrols
+$ zypper install python3-dbus-python libQt5WebKit5 libQt5WebKitWidgets5
 $ zypper install tesseract-ocr-devel tesseract-ocr-traineddata-english
 $ zypper install tesseract-ocr-traineddata-chinese_simplified
 $ zypper install tesseract-ocr-traineddata-chinese_traditional
