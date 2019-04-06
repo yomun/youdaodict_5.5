@@ -28,10 +28,9 @@ Location: /usr/local/lib/python3.6/dist-packages
 Requires: PyQt5-sip
 Required-by:
 
-如上信息可知道这个 PyQt5 不是来自本身 Linux 软件库..
+如上信息可知道这个 PyQt5 不是来自本身 Linux 软件库, 撤..
 
-$ pip3 uninstall PyQt5
-$ pip3 uninstall PyQt5-sip
+$ pip3 uninstall PyQt5 PyQt5-sip
 ```
 3) 安装依赖软件包
 - Ubuntu 16.04 - 18.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
