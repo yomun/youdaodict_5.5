@@ -10,7 +10,6 @@ $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ub
 ```
 2) 如有 pip3 安装的 PyQt5, 卸载之.. (5.6 开始的版本, 因它缺所需旧模块)
 ```
-如有显示 PyQt5 (5.12.1), 卸载之..
 $ su
 $ pip3 list | grep PyQt5
 
