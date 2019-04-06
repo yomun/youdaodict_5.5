@@ -12,6 +12,8 @@ $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ub
 ```
 $ su
 $ pip3 list | grep PyQt5
+PyQt5       5.12.1
+PyQt5-sip   4.19.8
 
 $ pip3 show PyQt5
 Name: PyQt5
