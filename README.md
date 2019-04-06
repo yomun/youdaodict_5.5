@@ -28,7 +28,7 @@ Location: /usr/local/lib/python3.6/dist-packages
 Requires: PyQt5-sip
 Required-by:
 
-如果 PyQt5 不是来自本身 Linux 软件库..
+如上信息可知道这个 PyQt5 不是来自本身 Linux 软件库..
 
 $ pip3 uninstall PyQt5
 $ pip3 uninstall PyQt5-sip
