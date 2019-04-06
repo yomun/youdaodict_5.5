@@ -14,6 +14,20 @@ $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ub
 $ su
 $ pip3 list | grep PyQt5
 
+$ pip3 show PyQt5
+Name: PyQt5
+Version: 5.12.1
+Summary: Python bindings for the Qt cross platform UI and application toolkit
+Home-page: https://www.riverbankcomputing.com/software/pyqt/
+Author: Riverbank Computing Limited
+Author-email: info@riverbankcomputing.com
+License: GPL v3
+Location: /usr/local/lib/python3.6/dist-packages
+Requires: PyQt5-sip
+Required-by:
+
+如果 PyQt5 不是来自本身 Linux 软件库..
+
 $ pip3 uninstall PyQt5
 $ pip3 uninstall PyQt5-sip
 
