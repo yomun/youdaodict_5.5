@@ -8,7 +8,7 @@ http://packages.deepin.com/deepin/pool/main/y/youdao-dict/
 ```
 $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb
 ```
-2) 检查 pip3 上安装的 PyQt5
+2) 检查 pip3 上安装的 PyQt5<br>
 https://pypi.org/project/PyQt5/
 ```
 $ su
