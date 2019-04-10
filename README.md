@@ -35,7 +35,7 @@ $ pip3 uninstall PyQt5 PyQt5-sip
 
 也不要用非root户口安装上 PyQt5, 其路径应该是
 /home/$USERNAME/.local/lib/python3.6/site-packages
-有的话, 也要撤.. 同以上方法, 只是不用 su 转换 root 权限
+有的话, 也要撤.. 同以上方法, 只是不用 su 转换成 root 权限
 ```
 3) 安装依赖软件包
 - Ubuntu 16.04 - 18.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
