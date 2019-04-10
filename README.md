@@ -15,7 +15,7 @@ $ su
 
 $ pip3 list | grep PyQt5
 PyQt5       5.12.1
-PyQt5-sip   4.19.8
+PyQt5-sip   4.19.15
 
 $ pip3 show PyQt5
 Name: PyQt5
@@ -32,6 +32,10 @@ Required-by:
 如上信息可知道这个 PyQt5 不是来自本身 Linux 软件库, 撤..
 
 $ pip3 uninstall PyQt5 PyQt5-sip
+
+也不要用非root户口安装 PyQt5, 其路径应该是
+/home/$USERNAME/.local/lib/python3.6/site-packages
+有的话, 也要撤.. 同以上方法, 只是不需要用 su 转换 root 权限
 ```
 3) 安装依赖软件包
 - Ubuntu 16.04 - 18.10 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
