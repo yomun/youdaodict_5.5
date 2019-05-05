@@ -29,7 +29,7 @@ Location: /usr/local/lib/python3.6/dist-packages
 Requires: PyQt5-sip
 Required-by:
 
-如上信息可知道这个 PyQt5 不是来自本身 Linux 软件库, 撤..
+如上信息可知道这个 PyQt5 不是来自本身 Linux 软件库 (/usr/lib/python3/dist-packages), 撤..
 
 $ pip3 uninstall PyQt5 PyQt5-sip
 
@@ -38,7 +38,7 @@ $ pip3 uninstall PyQt5 PyQt5-sip
 有的话, 也要撤.. 同以上方法, 只是不用 su 转换成 root 权限
 ```
 3) 安装依赖软件包
-- Ubuntu 16.04 - 19.04 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1
+- Ubuntu 16.04 - 19.04 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1 (可以跳过)
 ```
 $ su
 $ apt install python3 python3-pip python3-xdg python3-xlib
@@ -133,6 +133,7 @@ $ su
 
 如果是 dpkg 安装的话 (基于 Ubuntu / Debian / Linux Mint / Zorin OS)
 $ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb
+$ apt install -f  (如果 dpkg 出现缺依赖软件包)
 
 如果是 tar 安装的话 (其实就是将 deb 解压, 把文件放到系统各处)
 $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
