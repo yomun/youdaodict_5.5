@@ -8,7 +8,7 @@ http://packages.deepin.com/deepin/pool/main/y/youdao-dict/
 ```
 $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb
 ```
-2) 检查 pip3 上安装的 PyQt5<br>
+2) 检查 pip3 上安装的 PyQt5 (pip3 命令的安装可看步骤3)<br>
 https://pypi.org/project/PyQt5/
 ```
 $ su
@@ -133,7 +133,7 @@ $ su
 
 如果是 dpkg 安装的话 (基于 Ubuntu / Debian / Linux Mint / Zorin OS)
 $ dpkg -i youdao-dict_1.1.1-0?ubuntu_amd64.deb
-$ apt install -f  (如果 dpkg 出现缺依赖软件包)
+$ apt install -f  (如果上面的 dpkg 命令运行显示缺依赖软件包)
 
 如果是 tar 安装的话 (其实就是将 deb 解压, 把文件放到系统各处)
 $ ar vx youdao-dict_1.1.1-0?ubuntu_amd64.deb
