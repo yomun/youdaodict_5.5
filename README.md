@@ -38,7 +38,7 @@ $ pip3 uninstall PyQt5 PyQt5-sip
 有的话, 也要撤.. 同以上方法, 只是不用 su 转换成 root 权限
 ```
 3) 安装依赖软件包
-- Ubuntu 16.04 - 19.04 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1 (可以跳过)
+- Ubuntu 16.04 - 20.04 / Debian 9.1 / Linux Mint 18.2 / Zorin OS 12.1 (可以跳过)
 ```
 $ su
 $ apt install python3 python3-pip python3-xdg python3-xlib
