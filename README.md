@@ -6,6 +6,9 @@ http://packages.deepin.com/deepin/pool/main/y/youdao-dict/
 
 1) 取得有道词典安装包 (需要3D加速, 假设显卡驱动已安装了)
 ```
+# 有道词典Linux版， 取自 https://cidian.youdao.com/multi.html
+$ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_6.0.0-ubuntu-amd64.deb
+
 $ wget https://github.com/yomun/youdaodict_5.5/raw/master/youdao-dict_1.1.1-0~ubuntu_amd64.deb
 ```
 2) 检查 pip3 上安装的 PyQt5 (pip3 命令的安装可看步骤3)<br>
