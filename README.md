@@ -60,8 +60,8 @@ Ubuntu 18.04 用 fonts-wqy-microhei 取代了 ttf-wqy-microhei
 youdao-dict_6.0.0-ubuntu-amd64.deb 还需要安装
 $ apt install libsqlite3-dev
 $ apt install python3-dev python3-opengl python3-setuptools
-$ apt install gstreamer1.0-plugins-bad, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly
-$ apt install gstreamer1.0-packagekit, gstreamer1.0-plugins-base, gstreamer1.0-tools
+$ apt install gstreamer1.0-plugins-bad gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly
+$ apt install gstreamer1.0-packagekit gstreamer1.0-plugins-base gstreamer1.0-tools
 ```
 - Fedora 26 - 29
 ```
